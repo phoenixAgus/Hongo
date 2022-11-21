@@ -70,10 +70,17 @@ nav ul li a{
 
 
 /*relojes*/
+
+.fondo{
+    background-color: white;
+}
 #principal{
     display: flex;
     padding-top: 10%;
     padding-bottom: 15%;
+    font-family: 'myriad-pro',sans-serif;
+    font-size: 14px;
+    color: #808080;
 }
 
 .catalogocompra{
