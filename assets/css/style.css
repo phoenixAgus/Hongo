@@ -11,6 +11,7 @@ background-color: #f2ece5;
 
 header{
     background-color: black;
+    
 }
 
 header img{
@@ -842,23 +843,9 @@ a{
     color: #1e1e1e;
 }
 
-.img1, .img2, .img3, .img4{
-   
-    
-    padding: 5%;
-    width: 98%;
-    height: auto;
-    margin: 5%;
-    
-}
 
-.paises{
-    display: flex;
-    justify-content: center;
-    margin-left: 150px;
-    margin-right: 150px;
 
-}
+
 .fondo1{
     background-color: white;
 }
@@ -880,23 +867,240 @@ a{
     margin: 150px;
 }
 .porcentajes{
-    text-align: center;
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
-    margin: 150px;
+    
+
+  
 
 }
+.por1{
+   
+    padding: 100px;
+    width: 25%;
+    
+   
+
+}
+
 
 .amariamos{
     font-size: 50px;
-    margin: 20px;
+    margin: 100px;
+    text-align: center;
 }
+
 
 .img5{
-    padding: 5%;
-    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img5, img{
+    width: 50%;
     height: auto;
-    margin: 5%;
+    
+    
+    }
+.info1{
+    display: flex;
+    justify-content: left;
+    
+    
+}
+.textoinfo{
+    flex-direction: column;
+    z-index: 100%;
+    position: absolute;
+    left: 15%;
+    color: #ffffff;
+}
+
+.cuadrado5{
+    height: 475px;
+    width: 475px;
+    background-color: #1e1e1e;
+    position: absolute;
+    left: 60%;
+   
+}
+
+.help, .questions, .just, .popular {
+   
+    padding: 20px;
+    margin: 20px;
+    z-index: 100%;
+    
 
 }
+.titulo0{
+    text-align: center;
+    z-index: 100%;
+    top: 20%;
+    position: absolute;
+    left: 42%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#contact{
+    background-image: url("https://hongo.b-cdn.net/watch/wp-content/uploads/sites/10/2019/08/watch-the-team-01.jpg");
+    width: 100%;
+    height: 30em;
+}
+#titulo{
+    font-size: 40px;
+    font-family: 'niveau-grotesk',sans-serif;
+    font-weight: 400;
+}
+
+.paises{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+
+}
+
+.img1{
+    width: 20%;
+    height: auto;
+    z-index: 50%;
     
+    
+}
+.img1 img{
+    
+    width: 100%;
+    height: auto;
+    
+
+}
+.cuadrado1{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 100%;
+    top: 76em;
+    left: 7em;
+    
+}
+.cuadrado2{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 100%;
+    top: 76em;
+    left: 38em;
+    
+}
+.cuadrado3{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 100%;
+    top: 76em;
+    left: 69em;
+    
+}
+.cuadrado4{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 50%;
+    top: 76em;
+    left: 101em;
+    
+}
+.cuadrado1  img{
+    width: 15%;
+    height: auto;
+    top: 25%;
+    left: 50px;
+    position: absolute;
+
+}
+.cuadrado2  img{
+    width: 15%;
+    height: auto;
+    top: 25%;
+    left: 50px;
+    position: absolute;
+
+}
+.cuadrado3  img{
+    width: 15%;
+    height: auto;
+    top: 25%;
+    left: 50px;
+    position: absolute;
+
+}
+.cuadrado4  img{
+    width: 15%;
+    height: auto;
+    top: 25%;
+    left: 50px;
+    position: absolute;
+
+}
+#islandia, #suiza, #francia, #australia{
+    z-index: 100%;
+    font-size:10px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    font-size: 12px;
+    ont-family: 'Poppins',sans-serif;
+    color: #808080;
+    font-weight: 500;
+}
+
+#informacion {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'myriad-pro',sans-serif;
+    color: #808080;
+    word-wrap: break-word;
+    top: 42%;
+    left: 25%;
+    position: absolute;
+
+
+}
+
+
+
+ #video{
+    display: flex;
+    flex-wrap: wrap;
+    left: 37%;
+    position: absolute;
+    
+ }
+ .lorem{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    padding: 200px;
+
+ }
+
+ #lorem1{
+    font-size: 20px;
+ }
+#lorem2{
+    padding-left: 100px;
+
+}
+
