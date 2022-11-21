@@ -68,36 +68,41 @@ nav ul li a{
 }
 
 
-.catalogo{
+/*relojes*/
+#principal{
+    display: flex;
+    padding-top: 10%;
+    padding-bottom: 15%;
+}
+
+.catalogocompra{
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
     font-family: 'niveau-grotesk',sans-serif;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
 }
 
-.catalogo article{
-    width: 20%;
+.catalogocompra article{
+    width: 25%;
     padding: 0.5%;
     height: auto;
     justify-content: center;
     align-items: flex-start;
 }
 
-.catalogo article h2{
+.catalogocompra article h2{
     font-size: 14px;
 }
-.catalogo article p {
+
+.catalogocompra article p {
     font-size: 14px;
     font-family: 'myriad-pro', sans-serif;
     color: #808080
 }
 
-.catalogo article img{
+.catalogocompra article img{
     padding-bottom: 2%;
     display: flex;
     flex-wrap: wrap;
@@ -105,6 +110,37 @@ nav ul li a{
     height: auto;
 }
 
+.lateral{
+    padding-left: 5%;
+    width: 25%;
+}
+
+#superior{
+    z-index: 100%;
+    width: 100%;
+    height: 30em;
+    background-image: url("https://hongo.b-cdn.net/watch/wp-content/uploads/sites/10/2019/08/watch-shop-header-bg.jpg");
+}
+
+.centrado{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+    color: white;
+}
+
+.centra2{
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75%;
+    color: white;
+}
+
+/*home*/
 .blogtitle{
     font-family: 'niveau-grotesk',sans-serif;
     text-align: center;
@@ -177,16 +213,6 @@ footer h2{
     margin-bottom: 5%;
 }
 
-footer section{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 3%;
-    padding-bottom: 2%;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
 footer div {
     padding: 1%;
     width: 33%;
@@ -231,16 +257,6 @@ a{
 
 #compra header article .material-icons{
     color: #1e1e1e;
-}
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-body{
-background-color: #f2ece5;    
 }
 
 .header{
