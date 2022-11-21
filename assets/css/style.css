@@ -882,18 +882,35 @@ a{
   
 
 }
-.por1{
+.por1 p{ 
    
     padding: 100px;
     width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     
    
+}
+#sifras{
+    font-size: 50px;
+    color: #a05f15;
+    padding: 0;
+    padding: 100px;
+    padding-bottom: 0;
+
+}
+#clientes{
+    font-size: 14px;
+    padding: 100;
+    padding-top: 0;
 
 }
 
 
+
 .amariamos{
-    font-size: 50px;
+    font-size: 90px;
     margin: 100px;
     text-align: center;
 }
@@ -1111,3 +1128,55 @@ a{
 
 }
 
+.cuadrado6{
+    width: 600px;
+    height: 750px;
+    background-color: rgb(63, 63, 63);
+   
+    
+}
+
+#map{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:start;
+}
+#form{
+
+    position: absolute;
+    left: 45%;
+    top: 345%;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+ #boton{
+    background-color: rgb(255, 255, 255);
+    color: black;
+ }
+
+ .img2 img{
+    position: absolute;
+    flex-wrap: wrap;
+    left: 71%;
+    height: 745px;
+    width: auto;
+ }
+
+ #formti{
+    position: absolute;
+    display: flex;
+    color: #b88b5f;
+    font-size: 12px;
+    left: 46%;
+   top: 330%;
+ }
+
+ #formti2{
+    position: absolute;
+    display: flex;
+    color: #ffffff;
+    font-size: 24px;
+    left: 46%;
+   top: 335%;
+
+ }
